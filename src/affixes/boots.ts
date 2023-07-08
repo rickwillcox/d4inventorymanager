@@ -1,0 +1,51 @@
+const boots = {
+  implicit: [
+    '+2 Max Evade Charges',
+    'Attacks Reduce Evade’s Cooldown by 0.8 Second',
+    'Evade Grants +50% Movement Speed for 1 Second',
+  ],
+  explicit: {
+    generic: [
+      'All Stats',
+      'Cold Resistance',
+      'Damage Reduction while Injured',
+      'Dexterity',
+      'Dodge Chance',
+      'Dodge Chance Against Distant Enemies',
+      'Dodge Change',
+      'Fire Resistance',
+      'Intelligence',
+      'Lightning Resistance',
+      'Movement Speed',
+      'Movement Speed for 4 seconds After Killing an Elite',
+      'Poison Resistance',
+      'Shadow Resistance',
+      'Shrine Buff Duration',
+      'Slow Duration Reduction',
+      'Strength',
+      'Willpower',
+    ],
+    barbarian: ['Berserking Duration', 'Fortify Generation', 'Fury Cost Reduction'],
+    druid: ['Fortify Generation', 'Spirit Cost Reduction', 'Total Armor while in Werewolf Form'],
+    necromancer: ['Essence Cost Reduction', 'Fortify Generation', 'Ranks of Bone Spirit', 'Ranks of Corpse Tendrils'],
+    rogue: ['Energy Cost Reduction', 'Ranks of Caltrops', 'Ranks of Dash', 'Ranks of Shadow Step'],
+    sorcerer: [
+      'Crackling Energy Damage',
+      'Mana Cost Reduction',
+      'Ranks of Flame Shield',
+      'Ranks of Frost Nova',
+      'Ranks of Ice Armor',
+      'Ranks of Teleport',
+    ],
+  },
+  aspect: {
+    generic: [],
+    barbarian: [],
+    druid: [],
+    necromancer: [],
+    rogue: [],
+    sorcerer: [],
+  },
+};
+
+export default boots;
